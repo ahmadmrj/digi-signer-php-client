@@ -1,7 +1,7 @@
 <?php
 
 //require main DigiSigner API class
-require_once('../DigiSignerClient.php');
+require_once '../vendor/autoload.php';
 
 //import needed classed from DigiSigner namespace
 use DigiSigner\DigiSignerClient;
