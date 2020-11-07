@@ -66,6 +66,4 @@ class DigiSignerResponse {
 	protected function parseJSON($json) {
 		return json_decode(trim($json));
 	}
-	
-	
 }

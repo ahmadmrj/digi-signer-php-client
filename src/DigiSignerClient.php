@@ -8,10 +8,6 @@
  */
 namespace DigiSigner;
 
-//includes autoloader, which will take care about the rest of the classes
-require_once(__DIR__ . DIRECTORY_SEPARATOR . 'libs' . DIRECTORY_SEPARATOR . 'ClassLoader.php');
-
-
 /**
  * Main class for DigiSigner client. Provides interface for necessary actions accessible
  * to the API user.
