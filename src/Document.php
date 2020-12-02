@@ -65,6 +65,10 @@ class Document extends ExportObject {
 		$this->title = $title;
 	}
 
+	public function getTitle() {
+		return $this->title;
+	}
+
 	public function setSubject($subject) {
 		$this->subject = $subject;
 	}
