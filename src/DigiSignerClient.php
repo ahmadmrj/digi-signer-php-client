@@ -35,7 +35,7 @@ class DigiSignerClient {
 		$this->serverUrl = $serverUrl;
 	}
 
-	private function getServerUrl() {
+	public function getServerUrl() {
 		return empty($this->serverUrl) ? Config::instance()->server_default_url : $this->serverUrl;
 	}
 
@@ -46,7 +46,7 @@ class DigiSignerClient {
 		$this->locale = $locale;
 	}
 
-	protected function getRequest() {
+	public function getRequest() {
 		return new BaseRequest($this->api_key, $this->locale);
 	}
 	
